@@ -1,0 +1,66 @@
+{
+  "descripcion": "Conjunto de evaluacion de la recuperacion. El articulo esperado de cada pregunta se tomo leyendo el PDF indexado en corpus/, no la ley consolidada vigente: lo que se mide es si el RAG encuentra el fragmento correcto del corpus.",
+  "corpus": "ley-769-2002-cnt.pdf",
+  "preguntas": [
+    {
+      "pregunta": "Que equipo de carretera debe portar todo vehiculo para transitar?",
+      "articulo_esperado": "30",
+      "referencia": "El articulo 30 enumera el equipo de prevencion y seguridad obligatorio: gato, cruceta, llanta de repuesto, herramienta basica, botiquin, extintor, dos senales de carretera y linterna, entre otros."
+    },
+    {
+      "pregunta": "Que seguro deben tener los vehiculos para poder circular en Colombia?",
+      "articulo_esperado": "42",
+      "referencia": "El articulo 42 obliga a que todo vehiculo este amparado por un seguro obligatorio vigente (SOAT) para transitar en el territorio nacional."
+    },
+    {
+      "pregunta": "Cuanto tiempo vale la licencia de conduccion de un vehiculo particular?",
+      "articulo_esperado": "22",
+      "referencia": "El articulo 22 fija la vigencia de las licencias de conduccion, distinta para vehiculos particulares y de servicio publico y segun la edad del conductor."
+    },
+    {
+      "pregunta": "En que casos debo bajar la velocidad a treinta kilometros por hora?",
+      "articulo_esperado": "74",
+      "referencia": "El articulo 74 obliga a reducir la velocidad a 30 km/h en lugares de concentracion de personas, zonas escolares y otros casos que enumera."
+    },
+    {
+      "pregunta": "Donde esta prohibido estacionar el carro?",
+      "articulo_esperado": "76",
+      "referencia": "El articulo 76 prohibe estacionar sobre andenes, zonas verdes, espacio publico destinado a peatones y los demas lugares que lista."
+    },
+    {
+      "pregunta": "Como se liquidan las multas de transito?",
+      "articulo_esperado": "131",
+      "referencia": "El articulo 131 establece que las multas se liquidan en salarios minimos legales diarios vigentes, con cuatro tipos: A de 4, B de 8, C de 15 y D de 30 SMLDV."
+    },
+    {
+      "pregunta": "Que exige la revision tecnico-mecanica y de gases?",
+      "articulo_esperado": "28",
+      "referencia": "El articulo 28 exige que el vehiculo garantice como minimo el perfecto funcionamiento de frenos, sistema de direccion, suspension, senales visuales y audibles y emision de gases."
+    },
+    {
+      "pregunta": "Como se otorga la licencia de conduccion por primera vez?",
+      "articulo_esperado": "17",
+      "referencia": "El articulo 17 regula el otorgamiento de la licencia de conduccion por primera vez a quien cumpla los requisitos que describe."
+    },
+    {
+      "pregunta": "Ante quien se matricula un vehiculo?",
+      "articulo_esperado": "39",
+      "referencia": "El articulo 39 establece que todo vehiculo se matricula ante un organismo de transito, al que se pagan los derechos de matricula y los impuestos sucesivos."
+    },
+    {
+      "pregunta": "Que dice la norma sobre el grado de alcoholemia?",
+      "articulo_esperado": "152",
+      "referencia": "El articulo 152 encarga al Instituto Nacional de Medicina Legal fijar los grados de alcoholemia y sus consecuencias."
+    },
+    {
+      "pregunta": "Como se deben usar los carriles en una via de un solo sentido?",
+      "articulo_esperado": "68",
+      "referencia": "El articulo 68 regula la utilizacion de los carriles segun el sentido de la via y la velocidad reglamentada de cada carril."
+    },
+    {
+      "pregunta": "Cual es el limite de velocidad en zonas urbanas?",
+      "articulo_esperado": "106",
+      "referencia": "El articulo 106 fija los limites de velocidad en zonas urbanas, con las modificaciones de la Ley 1239 de 2008."
+    }
+  ]
+}
